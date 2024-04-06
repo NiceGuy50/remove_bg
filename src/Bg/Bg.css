@@ -64,8 +64,8 @@
 
 .content_right_middle {
   width: 100%;
-  height: 80%;
-  margin-top: 20%;
+  height: 83%;
+  margin-top: 14%;
   background-color: #161b21;
 }
 
@@ -83,7 +83,7 @@
   font-size: 20px;
   text-align: right;
   font-family: "Aduma";
-  margin-top: 10px;
+  margin-top: 10 px;
   width: 100px;
   color: white;
 }
@@ -92,9 +92,9 @@
   background-image: url("../assets/Cleanup\ Edges.png");
   background-repeat: no-repeat;
   background-position: 110px 6px;
-  border-bottom: 2px solid #9c27b0;
   height: 36px;
   padding-right: 34px;
+  cursor: pointer;
 }
 
 .text_bg_orig {
@@ -102,4 +102,85 @@
   background-repeat: no-repeat;
   background-position: 106px 6px;
   padding-right: 20px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.border_bottom_selected {
+  border-bottom: 2px solid #9c27b0;
+}
+
+.footer_text {
+  color: white;
+  text-align: right;
+  padding: 25px 8px;
+  font-size: 10px;
+}
+
+.footer_btn {
+  background-color: #475366;
+  width: 83px;
+  color: #ffffff94;
+  padding: 7px;
+  text-align: right;
+  border-radius: 28px;
+  font-size: 10px;
+  background-repeat: no-repeat;
+  background-position: 6px 6px;
+  border: 0;
+  position: relative;
+  top: -42px;
+  left: 8px;
+  cursor: pointer;
+  background-image: url(../assets/eula.png);
+}
+
+.overlay {
+  background-color: #3e3e3e82;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+}
+
+.popup_eula {
+  height: 400px;
+  width: 500px;
+  z-index: 2;
+  background-color: #393e44;
+  position: absolute;
+  top: 330px;
+  left: 700px;
+  border-radius: 21px;
+  padding: 20px;
+}
+
+.popup_img {
+  cursor: pointer;
+}
+
+.popup_text {
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  padding-top: 23px;
+}
+
+.banner_img {
+  width: 75%;
+}
+
+.logo_img {
+  width: 18%;
+  margin-right: 12px;
+  height: 40px;
+  margin-top: 4px;
 }
